@@ -1,0 +1,56 @@
+@import './page.scss';
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+        font-family: 'Manrope', sans-serif;
+        background-color: hsl(210, 46%, 95%);
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+        img{
+            width: $WeH;
+            height: $WeH;
+            border-top-left-radius: $radius;
+            border-bottom-left-radius: $radius;
+        }
+
+        .text{
+            width: 600px;
+            min-height: $WeH;
+            background-color: white;
+            border-top-right-radius: $radius;
+            border-bottom-right-radius: $radius;
+
+            h1{
+               @include text(hsl(217, 19%, 35%), 700, 20px,30px);
+               margin: 30px 175px 10px 50px;
+            }
+
+            p{
+                @include text(hsl(214, 17%, 51%),500,13px,20px); 
+                margin: 30px 175px 10px 50px;
+            }
+
+            span{
+                
+            }
+
+            img{
+                margin: 10px 0px 10px 50px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+
+                &:nth-of-type(2){
+                    display: none;
+                }
+            }
+        }
+    }

@@ -1,0 +1,11 @@
+@import './reset.scss';
+
+@mixin text ($color:none,$weight:none,$size:none,$line:none){
+    color:$color;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+}
+
+$radius: 10px;
+$WeH:300px;
