@@ -148,9 +148,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-.modal-container .ativo {
-  display: flex;
-}
 .modal-container .modal {
   display: flex;
   align-items: center;
@@ -186,6 +183,10 @@ body {
 .modal-container .modal img {
   margin-right: 10px;
   cursor: pointer;
+}
+
+.active {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

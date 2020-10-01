@@ -90,10 +90,6 @@
         justify-content: center;
         align-items: center;
 
-        .ativo{
-            display: flex;
-        }
-
         .modal{
             display: flex;
             align-items: center;
@@ -130,4 +126,8 @@
                 cursor: pointer;
             }
         }
+    }
+
+    .active{
+        display: flex;
     }
